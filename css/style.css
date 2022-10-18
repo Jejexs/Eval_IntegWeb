@@ -1,0 +1,340 @@
+.boutonsite {
+  background-color: #C1F7D5;
+  border: none;
+  border-radius: 100px;
+  height: 48px;
+  width: 160px;
+  font-size: 18px;
+  font-weight: bold;
+}
+body {
+  color: #354463;
+}
+.header {
+  width: 1440px;
+  height: 128px;
+  background-color: #ffffff;
+  display: flex;
+}
+.nav {
+  width: 1440px;
+  display: flex;
+  justify-content: space-around;
+}
+.nav .about {
+  padding: 55px 0px 53px 224px;
+}
+.nav .stories {
+  padding: 55px 0px 53px 129px;
+}
+.nav .new {
+  padding: 55px 0px 53px 114px;
+}
+.nav .donate {
+  margin: 40px 160px 40px 72px;
+}
+button {
+  background-color: #C1F7D5;
+  border: none;
+  border-radius: 100px;
+  height: 48px;
+  width: 160px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.logo {
+  padding: 34px 0px 31px 160px;
+}
+.grandeimage {
+  width: 1440px;
+  height: 672px;
+  background-image: url(../img/paysage.jpg);
+  background-size: 100%;
+  filter: grayscale(30%);
+}
+.grandeimage .filtrevert {
+  background-color: #C1F7D5;
+  height: 100%;
+  width: 1440px;
+  opacity: 0.6;
+}
+.gauche {
+  position: absolute;
+  z-index: 100;
+  background-color: white;
+  width: 544px;
+  height: 416px;
+  top: 128px;
+  left: 160px;
+}
+.gauche .issue {
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  background-color: #354463;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  left: 64px;
+  top: -16px;
+}
+.gauche .climate {
+  width: 416px;
+  height: 227px;
+  font-size: 44px;
+  font-weight: bold;
+  text-align: center;
+  top: 76px;
+  padding: 76px 64px 0px 64px;
+}
+.gauche .read {
+  font-size: 16px;
+  text-align: center;
+  text-decoration: underline;
+}
+.droite {
+  position: absolute;
+  top: 8.7px;
+  right: -431px;
+}
+.take {
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  background-color: #354463;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  translate: 640px -22px;
+}
+.action {
+  width: 1440px;
+  height: 262px;
+  background-color: #C1F7D5;
+}
+.action .conteneurAction {
+  display: flex;
+  padding: 75px 160px 78px 160px;
+  justify-content: space-between;
+}
+.action .conteneurAction div {
+  width: 232px;
+}
+.action .titreAction {
+  font-size: 28px;
+  font-weight: bold;
+}
+.action .textAction {
+  font-size: 16px;
+}
+.footer {
+  width: 1440px;
+  height: 1037px;
+  background-color: #354463;
+}
+.footer .what {
+  height: 40px;
+  width: 160px;
+  background-color: white;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+}
+.footer .mission {
+  height: 173px;
+  width: 1122px;
+  color: white;
+  font-size: 44px;
+  margin: 40px 0px 43px 0px;
+}
+.grandConteneur {
+  display: flex;
+  width: 1122px;
+  justify-content: space-between;
+}
+.grandConteneur .conteneurBlanc {
+  height: 528px;
+  width: 320px;
+  background-color: white;
+}
+.grandConteneur .titreConteneur {
+  text-align: left;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 32px;
+}
+.grandConteneur .textConteneur {
+  text-align: left;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 32px;
+  width: 256px;
+}
+.grandConteneur button {
+  margin-left: 32px;
+  margin-top: 20px;
+}
+.grandConteneur img {
+  height: 224px;
+  width: 320px;
+  translate: 32px -32px;
+}
+.test {
+  padding: 160px 0px 0px 88px;
+}
+@media screen and (max-width: 600px) {
+  .boutonsite {
+    background-color: #C1F7D5;
+    border: none;
+    font-weight: bold;
+  }
+  .header {
+    width: 600px;
+    height: 128px;
+    background-color: #ffffff;
+  }
+  .nav {
+    display: none;
+  }
+  button {
+    background-color: #C1F7D5;
+    border: none;
+    font-weight: bold;
+  }
+  .grandeimage {
+    width: 600px;
+    height: 372px;
+    background-image: url(../img/paysage.jpg);
+    background-size: 100%;
+    filter: grayscale(30%);
+  }
+  .grandeimage .filtrevert {
+    background-color: #C1F7D5;
+    height: 100%;
+    width: 600px;
+    opacity: 0.6;
+  }
+  .gauche {
+    position: absolute;
+    z-index: 100;
+    background-color: white;
+    width: 300px;
+    height: 216px;
+    top: 128px;
+    left: 160px;
+  }
+  .gauche .issue {
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    background-color: #354463;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    left: 64px;
+    top: -16px;
+  }
+  .gauche .climate {
+    width: 190px;
+    height: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    top: 76px;
+    padding: 76px 64px 0px 64px;
+  }
+  .gauche .read {
+    font-size: 8px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .droite {
+    position: absolute;
+    top: 8.7px;
+    right: -431px;
+  }
+  .take {
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    background-color: #354463;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    translate: 220px -22px;
+  }
+  .action {
+    width: 600px;
+    height: 272px;
+    background-color: #C1F7D5;
+  }
+  .action .titreAction {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .action .textAction {
+    font-size: 8px;
+  }
+  .footer {
+    width: 600px;
+    height: 1037px;
+    background-color: #354463;
+  }
+  .footer .what {
+    height: 40px;
+    width: 160px;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+  }
+  .footer .mission {
+    height: 173px;
+    width: 402px;
+    color: white;
+    font-size: 44px;
+    margin: 40px 0px 43px 0px;
+  }
+  .grandConteneur {
+    display: flex;
+    width: 1122px;
+    justify-content: space-between;
+  }
+  .grandConteneur .conteneurBlanc {
+    height: 528px;
+    width: 320px;
+    background-color: white;
+  }
+  .grandConteneur .conteneurBlanc:nth-child(2) {
+    display: none;
+  }
+  .grandConteneur .conteneurBlanc:nth-child(3) {
+    display: none;
+  }
+  .grandConteneur .titreConteneur {
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 32px;
+  }
+  .grandConteneur .textConteneur {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 32px;
+    width: 256px;
+  }
+  .grandConteneur button {
+    margin-left: 32px;
+    margin-top: 20px;
+  }
+  .grandConteneur img {
+    height: 224px;
+    width: 320px;
+    translate: 32px -32px;
+  }
+}

@@ -1,0 +1,457 @@
+// ------------ DESKTOP ---------------------
+
+
+@maxwidth: 1440px;
+@vert: #C1F7D5;
+@bleue:#354463;
+
+.boutonsite {background-color: @vert;
+border: none;
+border-radius: 100px;
+height: 48px;
+width: 160px;
+font-size: 18px;
+font-weight: bold;
+}
+
+
+body{
+    color: @bleue;
+}
+
+.header{
+    width: @maxwidth;
+    height: 128px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.nav{
+    width: @maxwidth;
+    display: flex;
+    justify-content: space-around;
+    .about{
+        padding: 55px 0px 53px 224px;
+    }
+    .stories{
+        padding: 55px 0px 53px 129px;
+    }
+    .new{
+        padding: 55px 0px 53px 114px;
+    }
+    .donate{
+        margin: 40px 160px 40px 72px;
+
+    }
+        
+}
+
+button{ 
+    .boutonsite  
+}
+
+.logo{
+   padding: 34px 0px 31px 160px;
+}
+
+.grandeimage{
+    width: @maxwidth;
+    height: 672px;
+    background-image: url(../img/paysage.jpg);
+    background-size: 100%;
+    filter : grayscale(30%);
+
+
+    
+    .filtrevert{
+        background-color: @vert ;
+        height: 100%;
+        width: @maxwidth;
+        opacity: 0.6;
+       
+        
+    }
+    
+}
+.gauche{
+          
+    position: absolute;
+    z-index: 100;
+    background-color: white;
+    width: 544px;
+    height: 416px;
+    top: 128px;
+    left: 160px;
+    
+    .issue{
+        position: absolute;
+        width: 160px;
+        height: 40px;
+        background-color:@bleue ;
+        text-align: center;
+        line-height: 40px;
+        color: white;
+        left: 64px;
+        top: -16px;
+        
+    
+    }
+        .climate{
+        width: 416px;
+        height: 227px;
+        font-size: 44px;
+        font-weight: bold;
+        text-align: center;
+        top: 76px;
+        padding: 76px 64px 0px 64px;
+       
+
+    }
+        .read{
+        font-size: 16px;
+        text-align: center;
+        text-decoration: underline;
+       
+
+
+}
+
+}
+
+.droite{
+    position: absolute;
+    top: 8.7px;
+    right: -431px;
+}
+
+.take{
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    background-color:@bleue ;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    translate: 640px -22px;
+
+}
+
+.action{
+    
+    width: @maxwidth;
+    height: 262px;
+    background-color: @vert;
+
+        .conteneurAction{
+            display: flex;
+            padding: 75px 160px 78px 160px;
+            justify-content: space-between;
+                div{
+                    width: 232px;
+                }
+        }
+        
+        .titreAction{
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .textAction{
+            font-size: 16px;
+        }
+}
+
+.footer{
+    width: @maxwidth;
+    height: 1037px;
+    background-color: @bleue;
+    .what{
+        height: 40px;
+        width: 160px;
+        background-color: white;
+        text-align: center;
+        line-height: 40px;
+        font-size: 14px;
+
+    }
+    .mission{
+        height: 173px;
+        width: 1122px;
+        color: white;
+        font-size: 44px;
+        margin: 40px 0px 43px 0px;
+    }
+}
+
+.grandConteneur{
+    display: flex;
+    width: 1122px;
+    justify-content: space-between;
+
+    .conteneurBlanc{
+        height: 528px;
+        width: 320px;
+        background-color: white;
+
+        
+
+    }
+    .titreConteneur{
+        text-align: left;
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-left: 32px;
+
+    }
+
+    .textConteneur{
+        text-align: left;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 32px;
+        width: 256px;
+
+    }
+    button{
+        margin-left: 32px;
+        margin-top: 20px;
+    }
+
+
+    img{
+        height: 224px;
+        width: 320px;
+        translate: 32px -32px;
+
+    }
+    
+}
+
+.test{
+    padding: 160px 0px 0px 88px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// ------------ RESPONSIVE MOBILE -----------------------------
+
+
+
+@media screen and (max-width: 600px) {
+
+@maxwidth: 600px;
+@vert: #C1F7D5;
+@bleue:#354463;
+
+.boutonsite {background-color: @vert;
+border: none;
+font-weight: bold;
+}
+
+
+
+
+.header{
+    width: @maxwidth;
+    height: 128px;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+.nav{
+display: none;
+    
+    
+        
+}
+
+button{ 
+    .boutonsite  
+}
+
+
+
+.grandeimage{
+    width: @maxwidth;
+    height: 372px;
+    background-image: url(../img/paysage.jpg);
+    background-size: 100%;
+    filter : grayscale(30%);
+
+
+
+    
+    .filtrevert{
+        background-color: @vert ;
+        height: 100%;
+        width: @maxwidth;
+        opacity: 0.6;
+       
+        
+    }
+    
+}
+.gauche{
+          
+    position: absolute;
+    z-index: 100;
+    background-color: white;
+    width: 300px;
+    height: 216px;
+    top: 128px;
+    left: 160px;
+    
+    .issue{
+        position: absolute;
+        width: 160px;
+        height: 40px;
+        background-color:@bleue ;
+        text-align: center;
+        line-height: 40px;
+        color: white;
+        left: 64px;
+        top: -16px;
+        
+    
+    }
+        .climate{
+        width: 190px;
+        height: 100px;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        top: 76px;
+        padding: 76px 64px 0px 64px;
+       
+
+    }
+        .read{
+        font-size: 8px;
+        text-align: center;
+        text-decoration: underline;
+       
+
+
+}
+
+}
+
+.droite{
+    position: absolute;
+    top: 8.7px;
+    right: -431px;
+}
+
+.take{
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    background-color:@bleue ;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    translate: 220px -22px;
+
+}
+
+.action{
+    
+    width: @maxwidth;
+    height: 272px;
+    background-color: @vert;
+
+        
+        
+        .titreAction{
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .textAction{
+            font-size: 8px;
+        }
+}
+
+.footer{
+    width: @maxwidth;
+    height: 1037px;
+    background-color: @bleue;
+    .what{
+        height: 40px;
+        width: 160px;
+        background-color: white;
+        text-align: center;
+        line-height: 40px;
+        font-size: 14px;
+
+    }
+    .mission{
+        height: 173px;
+        width: 402px;
+        color: white;
+        font-size: 44px;
+        margin: 40px 0px 43px 0px;
+    }
+}
+
+.grandConteneur{
+    display: flex;
+    width: 1122px;
+    justify-content: space-between;
+
+    .conteneurBlanc{
+        height: 528px;
+        width: 320px;
+        background-color: white;
+        &:nth-child(2){
+            display: none;
+        }
+        &:nth-child(3){
+            display: none;
+        }
+
+        
+
+    }
+    .titreConteneur{
+        text-align: left;
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-left: 32px;
+
+    }
+
+    .textConteneur{
+        text-align: left;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 32px;
+        width: 256px;
+
+    }
+    button{
+        margin-left: 32px;
+        margin-top: 20px;
+    }
+
+
+    img{
+        height: 224px;
+        width: 320px;
+        translate: 32px -32px;
+
+    }
+    
+}
+  }
